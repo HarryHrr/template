@@ -1,6 +1,7 @@
 import { LitElement, css, html } from 'lit'
 
 import './components/layout/sections/components/card-left-00'
+import './components/common/nav-bar-00'
 
 export class MyElement extends LitElement {
 
