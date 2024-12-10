@@ -14,27 +14,33 @@ export class CardLeft00 extends LitElement {
           <div class="card__container_body">
             <div class="card__container_body_content">
               <div class="card__container_body_content_text">
-                <h2 class="card__container_body_content_text_title"> ¿Quienes Somos? </h2>
+                <h2 class="card__container_body_content_text_title"> Lorem ipsum </h2>
               </div>
 
               <div class="card__container_body_content_text">
                 <p class="card__container_body_content_text_text">
-                  NEWSOFT COMPUTER es una empresa de desarrollo de software y
-                  diseño web fundada en 2009, especializada en soluciones
-                  digitales personalizadas. Ofrecemos un servicio excepcional,
-                  trabajando estrechamente con nuestros clientes para superar
-                  sus expectativas y brindar soluciones innovadoras y de
-                  calidad.
+                Lorem impusn dolor Lorem impusn dolor Lorem impusn dolor Lorem impusn dolor
+                Lorem impusn dolor Lorem impusn dolor Lorem impusn dolor Lorem impusn dolor
+                Lorem impusn dolor Lorem impusn dolor Lorem impusn dolor Lorem impusn dolor
                 </p>
               </div>
             </div>
 
             <div class="card__container_footer_content">
               <div class="card__container_footer_content_button">
-                <button type="button">Atras</button>
+                <div class="card__container_footer_content_button_left">
+                  <span>
+                    <!-- <img src="" alt=""> -->
+                    svg left
+                  </span>
+                </div>
               </div>
-              <div>
-                <button type="button">Adelante</button>
+              <div class="card__container_footer_content_button">
+                <div class="card__container_footer_content_button_right">
+                  <span>
+                    svg right
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -53,8 +59,11 @@ export class CardLeft00 extends LitElement {
       }
 
       .card {
-        border: 2px solid black;
         padding: 2rem;
+        border-radius: 14px 48px 15px 48px;
+        box-shadow: -15px 12px 15px -17px rgba(0,0,0,0.65);
+        -moz-box-shadow: -15px 12px 15px -17px rgba(0,0,0,0.65);
+        -webkit-box-shadow: -15px 12px 15px -17px rgba(0,0,0,0.65);
       }
 
       .card__container {
@@ -65,11 +74,15 @@ export class CardLeft00 extends LitElement {
       .card__container_body {
         width: 18rem;
         padding: 1rem;
-        background: #a79b9b;
       }
 
       .card__container_footer_content {
         display: flex;
+        gap: 1rem;
+      }
+
+      img {
+        width: 2rem;
       }
     `,
   ];

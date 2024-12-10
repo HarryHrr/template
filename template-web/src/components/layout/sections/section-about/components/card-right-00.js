@@ -60,8 +60,8 @@ export class CardRight00 extends LitElement {
       }
 
       .div {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
         background: #f1f1f1;
       }
@@ -71,7 +71,9 @@ export class CardRight00 extends LitElement {
         background-color: #f7f7f7;
         border-top-right-radius: .6rem;
         border-bottom-right-radius: .6rem;
-        box-shadow: 0 0 .4rem #000000, 0 0 .4rem #000000;;
+        box-shadow: 5px -2px 17px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px -2px 17px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 5px -2px 17px -7px rgba(0,0,0,0.75);
       }
 
       .card__container_info {
