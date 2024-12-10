@@ -1,4 +1,4 @@
-import { LitElement, css, html } from 'lit'
+import { LitElement, html, css } from 'lit';
 
 // import './components/layout/sections/components/card-left-00-m'
 // import './components/layout/sections/components/card-right-00-m'
@@ -27,4 +27,4 @@ export class MyElement extends LitElement {
   }
 }
 
-window.customElements.define('my-element', MyElement)
+window.customElements.define('my-element', MyElement);
